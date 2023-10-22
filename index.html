@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Assignment</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Task Assignment</h1>
+    <form id="task-form">
+        <label for="task">Task:</label>
+        <input type="text" id="task" placeholder="Enter a task" required>
+        
+        <label for="assignee">Assign to:</label>
+        <input type="text" id="assignee" placeholder="Assign to" required>
+        
+        <label for="email">Assignee's Email:</label>
+        <input type="email" id="email" placeholder="Enter email" required>
+        
+        <label for="deadline">Completion Deadline:</label>
+        <input type="date" id="deadline" required>
+        
+        <button type="submit">Assign Task</button>
+    </form>    
+    <ul id="task-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
